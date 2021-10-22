@@ -1,0 +1,13 @@
+String s = "I Love Code";
+		char [] Rc = new char[s.length()];
+		int j = 0;
+		for(int i = s.length() - 1; i>=0; i--)
+		{
+			Rc[j] = s.charAt(i);
+			j++;
+		}
+		String sn = new String(Rc);
+		String d = sn.trim();
+		//str = d;
+		
+		System.out.println(d);
